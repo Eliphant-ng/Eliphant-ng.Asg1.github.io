@@ -35,7 +35,7 @@
 * [ ] clickable buttons (links to other pages) 
 * Footer: 
 * [ ] social media icons (links to accounts)
-* [ ]CSS Styling
+* [ ] CSS Styling
   
 ## _**Technologies Used**_: 🤓
 1. [Adobe XD](https://www.adobe.com/sea/products/xd.html)
