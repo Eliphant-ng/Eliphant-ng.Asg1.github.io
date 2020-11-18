@@ -74,6 +74,7 @@ input[type=text], select, textarea {
   }
 
   h1{ font-family: 'Balsamiq Sans', cursive;
+    font-size: 70px;
  }
 
  .links{font-size: 30px;
@@ -85,44 +86,6 @@ input[type=text], select, textarea {
 
 
 @media (min-width: 992px) {
-  p{text-align: center;
-    width: 450px;
-    padding: 15px ;
-    margin: 20px;
-    align-content: left ;
-    flex-flow: wrap ; 
-    font-family: 'Roboto', sans-serif;
-  }
-  .connect{position: absolute;
-    right:80px;
-    top: 70px;
-    width: 450px;
-    padding: 15px ;
-    margin: 20px;
-    flex-flow: wrap;
-    text-align: center;
-  }
-  .hello{ text-align: center;
-    width: 450px;
-    padding: 15px ;
-    margin: 20px;
-    align-content: center ;
-    flex-flow: wrap ; 
-  }
-  .container{position: absolute;
-    right:80px;
-    top:120px;
-    width:450px;
-    padding:15px ;
-    margin:20px;
-    flex-flow: wrap;
-    text-align: center;
-  }
-  .photo{ position: absolute;
-  left:565px;
-  top:200px
-
-  }
   footer {
     position: absolute;
     bottom:0;
@@ -139,18 +102,18 @@ input[type=text], select, textarea {
     align-content: center ;
     flex-flow: wrap ; 
   }
-  .hello{text-align: center;
-  }
+
   .connect{text-align: center;
   }
   footer {
     position: relative;
     bottom:0;
-    width:100%;
+    width:75%;
     height:30px;   /* Height of the footer */
     flex-flow: wrap;
   }
 }
+
 
 
  

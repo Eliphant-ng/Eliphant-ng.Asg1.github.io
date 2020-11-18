@@ -17,25 +17,29 @@
 
 ### **Accomplished Features:** ✔️
 * [x] Wireframe
+* [x] Features
+* [x] Introduction
+* [x] Clickable buttons for headers and links to pages
+* [x] social media icons
+* [x] CSS Styling for footer 
 
 ### **Unaccomplished Features:** ❌
 * [ ] ~~Wireframe~~
 * Home page: 
-* [ ] Features 
-* [ ] Introduction 
-* [ ] Clickable buttons (link to next page)
-* About Me and Contact page: 
-* [ ] Portrait 
-* [ ] Text about me 
+* [ ] ~~Features~~
+* [ ] ~~Introduction~~
+* [ ] ~~Clickable buttons (link to next page)~~
+* Contact page: 
+* [ ] Portrait  
 * [ ] Contact info 
 * [ ] Clickable links
 * Gallery: 
 * [ ] images of works with clickable links 
 * Header:
-* [ ] clickable buttons (links to other pages) 
+* [ ] ~~clickable buttons (links to other pages)~~
 * Footer: 
-* [ ] social media icons (links to accounts)
-* [ ] CSS Styling
+* [ ] ~~social media icons (links to accounts)~~
+* [ ] ~~CSS Styling~~
   
 ## _**Technologies Used**_: 🤓
 1. [Adobe XD](https://www.adobe.com/sea/products/xd.html)
