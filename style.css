@@ -1,5 +1,5 @@
 html{
-  background-image: url("photos/shapes.png");
+  background-image: url("photos/pink\ cloud.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,7 +34,7 @@ html{
 }
 .subtext{
   font-family: 'Roboto', sans-serif;
-  color: #cecdcd;
+  color: #a5a5a58c;
   text-align: center;
   padding: 0%;
 }
@@ -50,7 +50,8 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
     text-align: center;
     margin-top: 100px;
     padding: 0%;
-    text-shadow: 2px 2px 5px rgb(189, 188, 188);
+    color: rgb(227, 167, 255);
+    text-shadow:2px 2px 5px rgb(74, 54, 83);
     }
 
 
@@ -64,11 +65,10 @@ footer{font-size: 30px;
 .aboutme{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
-  border-style: outset;
+  border: outset;
 }
 .photo{
   border-radius: 50%;
-  box-shadow: 2px 2px 5px grey;
 }
 
 
@@ -99,9 +99,8 @@ footer{font-size: 30px;
   }
   .aboutme{
     padding: 30px;
-   
   }
-}
+} 
 
 
 
