@@ -4,6 +4,9 @@
 <link rel = "stylesheet" href="aboutmestyle.css" >
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
 <header> 
     <div class="topnav">
     <div class="topnav-left">
@@ -18,8 +21,8 @@
  </header>
 
  <body>
-    <h1> oh Hello.</h1>
-    <p> Hi, hello I am Elicia. I am currently a 17 year old year 1 student pursuing a diploma in immersive media in the school of Infocomm 
+    <h1 class=hello > oh Hello.</h1>
+    <p class=aboutme> Hi, hello I am Elicia. I am currently a 17 year old year 1 student pursuing a diploma in immersive media in the school of Infocomm 
     and Technology Ngee Ann Polytechnic. I am very passionate about art and would like to become a graphic designer or app developer
     in the near future. I am extremely enthusiastic about creating new, interesting and innovative art. I love to exploring with 
     different kinds of art mediums such as paints, pencils and pen. I am interested and determined to explore the digital art world next!
@@ -27,18 +30,17 @@
     During my free time, I like to doodle, play sports like badminton and watch Netflix. Hope you will enjoy looking through my portfolio. 
     Cheers!</p>
 
-    <h1> Let's Connect! </h1>
+    <img class=photo src="photos/circle-cropped.png" width="300px" height="300px">
+
+    <h1 class =connect > Let's Connect! </h1>
     <div class="container">
         <form action="action_page.php">
       
-          <label for="fname"></label>
-          <input type="text" id="fname" name="firstname" placeholder="First Name">
-      
-          <label for="lname"></label>
-          <input type="text" id="lname" name="lastname" placeholder="Last Name">
-      
-          <label for="subject"></label>
-          <input type="text" id="subject" name="sub" placeholder="Subject">
+          <label for="name"></label>
+          <input type="text" id="fname" name="name" placeholder="Name">
+
+          <label for="email"></label>
+          <input type="text" id="email" name="sub" placeholder="Email">
       
           <label for="text"></label>
           <textarea id="text" name="text" placeholder="Write something.." style="height:200px"></textarea>

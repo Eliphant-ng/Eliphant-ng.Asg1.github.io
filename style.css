@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(89, 110, 204);
     overflow: hidden;
 }
 
@@ -30,4 +30,15 @@
 .topnav-right {
   float: right;
 }
+
+h3{ font-family: 'Dancing Script', cursive;
+   float: left;
+ }
+
+h1{ font-family: 'Balsamiq Sans', cursive;
+     text-align: center;
+    }
+
+
+
 
