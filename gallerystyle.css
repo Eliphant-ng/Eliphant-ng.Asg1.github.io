@@ -1,38 +1,265 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
+/* for header */
+.logo{
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
+.menu{
   float: right;
 }
-
-.infoproj{
-  position: relative;
-  text-align: center;
-  columns: white;
+.nav ul{
+  list-style: none;
 }
+.nav{
+  display: inline-block;
+  position: absolute;
+  top:3%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-bottom: double;
+  width: 100%;
+  text-align: right;
+  margin-right: 5px;
+  background-color: ghostwhite;
+}
+.nav li:hover{
+  background-color: #c5c5c5;
+}
+.nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  color:  gray;
+  text-align: center;
+}
+.nav ul li{
+  position: relative;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  float: left;
+  width:136px;
+  line-height: 50px;
+}
+.dropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+.dropdown li{
+  background: (129, 129, 129);
+}
+.dropdown li:hover{
+  background-color: rgb(255, 153, 238);
+}
+.dropdown li{
+  display: none;
+}
+.nav li:hover .dropdown li{
+  display: block;
+  color: ghostwhite;
+}
+.nav li:hover .dropdown{
+  perspective: 1000px;
+  
+}
+.nav li:hover .dropdown li{
+  transform-origin: top left;
+  opacity: 0;
+}
+.nav li:hover .dropdown li:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+}
+.nav li:hover .dropdown li:nth-child(2){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+.nav li:hover .dropdown li:nth-child(3){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+.nav img{
+  position: absolute;
+  left: 1%;
+  top: 5%;
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: grey;
+}
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: rotateZ(90deg);
+  }
+  70%{
+    transform: skewX(10ddeg);
+  }
+  100%{
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
+}
+  .banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    background-image: url("photos/contact.gif");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .banner-area h1{
+    padding-top: 8%;
+    font-size: 70px;
+    text-transform: uppercase;
+    color:  rgb(150, 0, 180);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .banner-area h4{
+    padding-top: 8%;
+    font-size: 15px;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: rgba(65, 52, 77, 0.733);
+    height: 500px;
+  }
+  
+  h3{ font-family: 'Dancing Script', cursive;
+    float: left;
+    color: ghostwhite;
+  }
+  
+  h1{ font-family: 'Balsamiq Sans', cursive;
+    font-size: 70px;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+  }
+  body{
+    background: ghostwhite;
+  }
+ 
+  .thumb{
+    width: 100%;
+    min-width: 400px;
+    height:500px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .thumb img{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    object-position: top;
+    object-fit: cover;
+    padding: 10px;
+  }
+  .thumb h4{
+    color:ghostwhite;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  .thumb img:hover{
+    background-color: rgba(255, 134, 255, 0.705);
+    transition: 0.8s;
+  }
+  
+  footer{
+    top:50%;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family:'Roboto', sans-serif;
+    padding-top: 40px;
+    color: ghostwhite;
+  }
+  .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+  .footer-content p{
+    min-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: ghostwhite
+  }
+  .socials a i{
+    font-size: 1.1remm;
+    transition: color 0.5s ease;
+  }
+  .socials a:hover i{
+    color:  rgb(150, 0, 180);
+  }
+
+  .footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+
+
+  @media(max-width: 576px){
+    html{
+      display: flex;
+    }
+  }
+
+
+
+
+
+    

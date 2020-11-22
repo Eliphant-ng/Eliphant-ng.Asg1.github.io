@@ -1,36 +1,18 @@
-html{
-  background-image: url("photos/background.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 *{
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
-.subtext{
-  font-family: 'Roboto', sans-serif;
-  color: #a5a5a58c;
+html{
+  font-size: 10px;
+}
+body{
+  margin: 0;
+  padding: 0;
   text-align: center;
-  padding: 0%;
-}
-.header{
+  background: url(/photos/background.png);
+  background-position: center;
   font-family: 'Roboto', sans-serif;
-  color: ghostwhite;
-}
-h2{ font-family: 'Noto Sans TC', sans-serif;
-    font-size: 45px;
-    text-align: center;
-    margin-top: 100px;
-    padding: 0%;
-    color: rgb(227, 167, 255);
-    text-shadow:2px 2px 5px rgb(74, 54, 83);
-    }
-.photo{
-  border-radius: 50%;
-  flex-wrap: wrap;
 }
 .container{
   max-width: 1100px;
@@ -39,7 +21,31 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
   margin-top: 4rem;
   text-align: center;
 }
-
+h1{
+  color: rgb(150, 0, 180);
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 1rem;
+  padding-top: 5%;
+}
+h2{
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.img{
+  position: abosolute;
+  left: 50%;
+  top: 20%;
+}
+p{
+  font-size: 15px;
+  color: gray;
+  line-height: 2rem;
+  margin-top: 5rem;
+}
 /* for header */
 .logo{
   float: left;
@@ -60,6 +66,7 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
   width: 100%;
   text-align: right;
   margin-right: 5px;
+  background-color: white;
 }
 .nav li:hover{
   background-color: #c5c5c5;
@@ -69,7 +76,7 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
   padding: 0;
   margin: 0;
   display: inline-block;
-  color: rgb(129, 129, 129);
+  color:  gray;
   text-align: center;
 }
 .nav ul li{
@@ -93,16 +100,18 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
   background: (129, 129, 129);
 }
 .dropdown li:hover{
-  background-color: #bbbbbb;
+  background-color: rgb(255, 153, 238);
 }
 .dropdown li{
   display: none;
 }
 .nav li:hover .dropdown li{
   display: block;
+  color: ghostwhite;
 }
 .nav li:hover .dropdown{
   perspective: 1000px;
+  
 }
 .nav li:hover .dropdown li{
   transform-origin: top left;
@@ -120,7 +129,7 @@ h2{ font-family: 'Noto Sans TC', sans-serif;
   animation: animate 300ms ease-in-out forwards;
   animation-delay: 150ms;
 }
-img{
+.nav img{
   position: absolute;
   left: 1%;
   top: 20%;
@@ -130,7 +139,6 @@ a{
   font-family: 'Montserrat Alternates', sans-serif;
   color: grey;
 }
-
 @keyframes animate{
   0%{
     opacity: 0;
@@ -191,7 +199,7 @@ footer{
   transition: color 0.5s ease;
 }
 .socials a:hover i{
-  color: pink;
+  color:  rgb(150, 0, 180);
 }
 
 .footer-bottom{
@@ -211,29 +219,16 @@ footer{
   font-weight: 200;
 }
 
-@media(min-width: 992px){
-  .photo{
-    display: flex;
-    padding: 15px;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto; 
+@media (max-width:576px){
+  h1{
+    font-size: 20px;
+    letter-spacing: 2px;
   }
-  .aboutme{
-    padding: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
+  h2{
+    font-size: 10px;
   }
 }
- 
 
-
-@media(max-width: 576px){
-  
-  .aboutme{
-    padding: 30px;
-  }
-} 
 
 
 
