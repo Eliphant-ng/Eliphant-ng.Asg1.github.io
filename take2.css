@@ -1,15 +1,124 @@
-.gallery{
-    margin: 10px 50px; 
+.container{
+    max-width: 500;
+    margin: auto;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
 }
-.gallery img{
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
+img{
+    max-width: 100%;
+    border-radius: 50%;
 }
-.gallery img:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
+.msg-header-img{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 5%;
+    margin-top: 12px;
+    float: left;
 }
-.gallery:hover .overlay {
-    opacity: 1;
-  }
+.msg-header{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    display: inline-block;
+    background-color: #007bff;
+}
+.active{
+    width: 120px;
+    float: left;
+    margin-top: 10px;
+}
+.active h4{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+.active h6{
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 2px;
+    color: #fff;
+}
+.chat-page{
+    padding: 0 0 50px 0;
+}
+.msg-inbox{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.chats{
+    padding: 30px 15px 0 25px;
+}
+.msg-page{
+    height: 516px;
+    overflow-y: auto;
+}
+.recieved-msg{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.recieved-msg-inbox{
+    width: 57%;
+}
+.recieved-msg-inbox p{
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 15px 10px 17px;
+    width: 25%
+}
+.time{
+    color: #777;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+.msg-bottom{
+    position: relative;
+    height: 10%;
+    background-color: #007bff;
+}
+.input-group{
+    float: right;
+    margin-top: 13px;
+    margin-right: 20px;
+    outline: none;
+    border-radius: 20px;
+    width: 61%;
+    background-color: #fff;
+}
+.form-control{
+    border: none;
+    border-radius: 20px;
+}
+.inpuy-group-text{
+    background: transparent;
+    border: none;
+}
+input-group .fa{
+    color: #007bff;
+    float: right;
+}
+.bottom-icons{
+    float: left;
+    margin-top: 17px;
+    width: 30%;
+    margin-left: 22px;
+    color: white;
+}
+.bottom-icons .fa{
+    color: #fff;
+    padding: 5px;
+}
+.form-control:focus{
+    border-color: none;
+    box-shadow: none;
+    border-radius: 20px;
+
+}
