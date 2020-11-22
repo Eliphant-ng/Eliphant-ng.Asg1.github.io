@@ -36,8 +36,8 @@
 * [ ] ~~Introduction~~
 * [ ] ~~Clickable buttons (link to next page)~~
 * Contact page: 
-* [ ] ~~Portrait ~~ 
-* [ ] ~~Contact info ~~
+* [ ] ~~Portrait~~ 
+* [ ] ~~Contact info~~
 * [ ] ~~Clickable links~~
 * Gallery: 
 * [ ] ~~images of works with clickable links~~ 
