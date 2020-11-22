@@ -11,7 +11,7 @@
 *  As a programmer, I would like to make my website as unique and creative as possible, so that my website would be able to stand out and grab audiences's attention. 
 
 **External Links:** 🔗
-* [Wireframes](https://documentcloud.adobe.com/link/file/?guid=c4ff566a-6300-4284-9e7c-ad742a640b0e&location=AppCard&product=Creative%20Cloud%20Desktop&mv=product&mv2=accc&uri=urn%3Aaaid%3Asc%3AUS%3A39fb18d8-18bb-4aa7-bb9e-2be784cc682d&filetype=application%2Fpdf&size=557581)
+* [Wireframes](file:///C:/Users/elici/Desktop/Y1S2/ID/ID-Assignment-1/ID%20Assignment1.pdf)
   
 ## _**Features**_: 🌟
 
@@ -22,6 +22,12 @@
 * [x] Clickable buttons for headers and links to pages
 * [x] social media icons
 * [x] CSS Styling for footer 
+* [x] Clickable buttons (link to next page)
+* [x] Portrait
+* [x] Contact info
+* [x] Clickable links
+* [x] Images of works with clickable links
+  
 
 ### **Unaccomplished Features:** ❌
 * [ ] ~~Wireframe~~
@@ -30,11 +36,11 @@
 * [ ] ~~Introduction~~
 * [ ] ~~Clickable buttons (link to next page)~~
 * Contact page: 
-* [ ] Portrait  
-* [ ] Contact info 
-* [ ] Clickable links
+* [ ] ~~Portrait ~~ 
+* [ ] ~~Contact info ~~
+* [ ] ~~Clickable links~~
 * Gallery: 
-* [ ] images of works with clickable links 
+* [ ] ~~images of works with clickable links~~ 
 * Header:
 * [ ] ~~clickable buttons (links to other pages)~~
 * Footer: 
@@ -50,19 +56,21 @@
    * Github used for sharing website 
   
 ## _**Testing**_: 🤔
-/* write down things needed to be tested here
 * For Desktop: 🖥️
    
 * For Mobile: 📱
-
+* [ ]~~Flexbox~~
 ## _**Credits**_: 🤗
+Inspiration:
+* [Home Page](https://youtu.be/E5PO4yEwJI4)
+* [Gallery](https://youtu.be/073XKB9xv-M)
+* [Drop-down-Menu](https://youtu.be/4Nl_P1_biJg)
+* [Contact-Form](https://youtu.be/GMH3rNTN4IQ)
+* [Collaspsing-Header](https://youtu.be/BkbkUtrLkls)
+* [W3Schools](https://www.w3schools.com/)
 
-### * _**Content**_:
-/* copied from anywhere?
-### * _**Media**_:
-/* photos used copied from..
-
-### * _**Acknowledgements**_:
-/* i recieved inspiration from....
+Code: 
+* Styling done on CSS
+* Coded in VScode
 
 
