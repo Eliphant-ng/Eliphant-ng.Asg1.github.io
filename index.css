@@ -28,6 +28,7 @@ h1{
   letter-spacing: 8px;
   margin-bottom: 1rem;
   padding-top: 5%;
+  text-transform: uppercase;
 }
 h2{
   color: gray;
