@@ -47,12 +47,21 @@ p{
   line-height: 2rem;
   margin-top: 5rem;
 }
+body p{
+  background-color: #fffdfdc5;
+  box-shadow: 2px 2px 5px rgb(150, 0, 180);
+}
 /* for header */
+@media (min-width: 576px){
 .logo{
-  float: left;
+    float: left;
 }
 .menu{
   float: right;
+  padding-right: 35%;
+}
+.icon{
+  display: none;
 }
 .nav ul{
   list-style: none;
@@ -90,43 +99,43 @@ p{
   width:136px;
   line-height: 50px;
 }
-.dropdown{
+#dropdown{
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   padding: 0;
 }
-.dropdown li{
+#dropdown li{
   background: (129, 129, 129);
 }
-.dropdown li:hover{
+#dropdown li:hover{
   background-color: rgb(255, 153, 238);
 }
-.dropdown li{
+#dropdown li{
   display: none;
 }
-.nav li:hover .dropdown li{
+.nav li:hover #dropdown li{
   display: block;
   color: ghostwhite;
 }
-.nav li:hover .dropdown{
+.nav li:hover #dropdown{
   perspective: 1000px;
   
 }
-.nav li:hover .dropdown li{
+.nav li:hover #dropdown li{
   transform-origin: top left;
   opacity: 0;
 }
-.nav li:hover .dropdown li:nth-child(1){
+.nav li:hover #dropdown li:nth-child(1){
   animation: animate 300ms ease-in-out forwards;
   animation-delay: -150ms;
 }
-.nav li:hover .dropdown li:nth-child(2){
+.nav li:hover #dropdown li:nth-child(2){
   animation: animate 300ms ease-in-out forwards;
   animation-delay: 0ms;
 }
-.nav li:hover .dropdown li:nth-child(3){
+.nav li:hover #dropdown li:nth-child(3){
   animation: animate 300ms ease-in-out forwards;
   animation-delay: 150ms;
 }
@@ -153,7 +162,65 @@ a{
     transform: rotateZ(0deg);
   }
 }
-
+}
+@media (max-width: 576px){
+  .nav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    border-bottom: double;
+    padding-top: 10%;
+  }
+  
+  .nav #dropdown {
+    display: none;
+  }
+  
+  .nav a {
+    color:gray;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .nav a.menu{
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .nav a:hover {
+    background-color: rgb(255, 153, 238);
+    color:gray;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .nav img{
+    position: absolute;
+    left: 1%;
+    top: 10%;
+  }
+  h1{
+    padding-top: 0%;
+  }
+  .img{
+    position: abosolute;
+    left: 50%;
+    top: 15%;
+  }
+  p{
+    font-size: 15px;
+    color: gray;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+ 
+}
 /* footer */
 footer{
   position: absolute;
