@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DP Gallery</title>
+<link rel = "stylesheet" href="normalize.css" >
+<link rel = "stylesheet" href="index.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="nav">
+    <img src="photos/logo2.png" width="40px" height="40px">
+    <ul>
+      <li><a href="javascript:void(0);" class="menu" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+        <ul id="dropdown">
+          <li><a class="fa fa-home" href="http://127.0.0.1:5501/index.html"> Home</a></li>
+          <li><a class="fa fa-image" href="http://127.0.0.1:5501/gallery.html"> Gallery</a></li>
+          <li><a class="fa fa-address-book" href="http://127.0.0.1:5501/contact.html" > Contact</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img/app img.jpg">
+      <img src="img/app.png" alt="app image">
+    </a>
+    <div class="desc">For my first DP Assignment, I was tasked to revamp an app icon. Where I decided to revamp the bookings.com icon using Photoshop.</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img/gif img.gif">
+      <img src="img/gif.png"alt="app image">
+    </a>
+    <div class="desc"> For my second DP Assignment, I had to create a splash page for the same company. Again, i used photoshop to design a moving splash page.</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img/imfographic img.jpg">
+      <img src="img/infographic.png"alt="app image">
+    </a>
+    <div class="desc">  For my final Dp Assignment, I designed a infographic page for the same company again. I also used photoshop to help me create this infographic.</div>
+  </div>
+  
+</body>
+<footer> 
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/_eliphant_/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/elicia-ng-38a5971a7/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.pinterest.com/ellieapple10/"><i class="fa fa-pinterest"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <h6>Designed by <span>ELICIA NG</span> &copy;2020  </h6>
+    </div> 
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("dropdown");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</html>
