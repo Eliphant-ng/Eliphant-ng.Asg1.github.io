@@ -2,6 +2,7 @@
 
 #### Hello I am Elicia! For my first ID-Assignment I would be creating a personal portfolio site. 
 #### Currently I am a year one Polytechnic student pursuing a Diploma in Immersive Media. In this website I would be introducing more about myself, showing so of my highlights and showcasing some of my personal works that have done so far in my NP Polytechnic journey as well. Sit back and enjoy! 😎
+### Finished Product: [Portfolio](https://eliphant-ng.github.io/Eliphant-ng.Asg1.github.io/) *note: not sure why webpage does not load properly. Please download the file for viewing purposes instead. Thank you! 
 
 ## _**Design Process**_: 🎨
 
